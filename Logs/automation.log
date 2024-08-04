@@ -1,0 +1,24 @@
+#helps to record and track the execution flow,
+#making it easier to debug and understand the test results
+
+
+08/02/2024 04:11:41 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:11:41 PM: INFO: *** Verify Loginpage Title ***
+08/02/2024 04:11:53 PM: INFO: *** Loginpage title is passed ***
+08/02/2024 04:11:56 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:11:56 PM: INFO: *** Verify Home page Title ***
+08/02/2024 04:13:25 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:13:25 PM: INFO: *** Verify Loginpage Title ***
+08/02/2024 04:13:33 PM: INFO: *** Loginpage title is passed ***
+08/02/2024 04:13:35 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:13:35 PM: INFO: *** Verify Home page Title ***
+08/02/2024 04:14:25 PM: INFO: *** Homepage title is passed ***
+08/02/2024 04:14:39 PM: INFO: **** LOGOUT SUCCESFULLY ****
+08/02/2024 04:14:42 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1023db4a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2ebb611c644ba49ef7ae3e9a9e78947
+08/02/2024 04:14:42 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1023db650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2ebb611c644ba49ef7ae3e9a9e78947
+08/02/2024 04:14:42 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1023db410>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2ebb611c644ba49ef7ae3e9a9e78947
+08/02/2024 04:18:06 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:18:06 PM: INFO: *** Verify Loginpage Title ***
+08/02/2024 04:18:17 PM: INFO: *** Loginpage title is passed ***
+08/02/2024 04:18:18 PM: INFO: *** Test_001_Login ***
+08/02/2024 04:18:18 PM: INFO: *** Verify Home page Title ***
