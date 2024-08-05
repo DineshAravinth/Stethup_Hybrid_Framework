@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from Utilities.readProperties import Readconfig
-from Pageobjects.Registration_page import Registration_page
+from Page_Objects.Registration_page import Registration_page
 from time import sleep
 from selenium.common.exceptions import ElementClickInterceptedException, TimeoutException
 from selenium.webdriver.common.by import By
