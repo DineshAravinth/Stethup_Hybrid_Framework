@@ -20,23 +20,30 @@ class Test_001_Post_Job:
     job_image="/Users/apple/Downloads/1720001920747.png"
 
     def verify_element(self, ele_name):
-        if isinstance(ele_name, tuple):
-            try:
+        try:
+            if isinstance(ele_name, tuple):
                 element = WebDriverWait(self.driver, 10).until(
                     EC.presence_of_element_located(ele_name)
                 )
                 return element.is_displayed()
-            except TimeoutException:
-                raise AssertionError("Element Is Not Present")
-        elif hasattr(ele_name, 'is_displayed'):
-            return ele_name.is_displayed()
-        else:
-            raise TypeError("ele_name must be a tuple (locator) or a WebElement")
+            elif hasattr(ele_name, 'is_displayed'):
+                return ele_name.is_displayed()
+            else:
+                raise TypeError("ele_name must be a tuple (locator) or a WebElement")
+        except TimeoutException:
+            self.save_screenshot(method_name="element_not_found")
+            raise AssertionError("Element is not present")
 
     def verify_title(self, e_title, a_title, method_name):
         if e_title != a_title:
             self.save_screenshot(method_name)
             assert e_title == a_title, f"Title verification failed for {method_name}"
+    def save_screenshot(self, method_name):
+        d = datetime.now().strftime("%d-%m-%Y_%H:%M:%S")
+        screenshot_path = f"/Users/apple/Automation/STETHUP_PROJECT/Screenshots/{method_name}_{d}.png"
+        self.driver.save_screenshot(screenshot_path)
+        self.logger.error(f"*** {method_name} title failed ***")
+        return f"Screenshot saved to {screenshot_path}"
 
     def test_Post_Job(self, setup):
         self.logger.info("*** Posting_A_Job ***")
@@ -78,8 +85,10 @@ class Test_001_Post_Job:
             data_to_enter = Excel_Utilities.readData(self.path, self.sheet_name, row, 3)  # Column C
 
             if title_in_excel == "Hire For Whom":
+                assert self.verify_element(self.jb.hire_for_whom_locator), "Hire For Whom element not found!"
                 self.jb.hire_for_whom(data_to_enter)
                 sleep(3)
+
             elif title_in_excel == "Organization Name":
                 self.jb.org_name(data_to_enter)
                 sleep(3)

@@ -73,3 +73,22 @@
 08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a36b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
 08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a34d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
 08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a32f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
+08/07/2024 04:21:48 PM: INFO: *** Posting_A_Job ***
+08/07/2024 04:21:53 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 04:21:53 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 04:21:57 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 04:22:07 PM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 04:22:07 PM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 04:30:23 PM: INFO: *** Posting_A_Job ***
+08/07/2024 04:30:26 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 04:30:26 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 04:30:29 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 04:30:39 PM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 04:30:39 PM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 04:37:11 PM: INFO: *** Posting_A_Job ***
+08/07/2024 04:37:14 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 04:37:14 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 04:37:17 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 04:37:28 PM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 04:37:28 PM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 04:37:38 PM: ERROR: *** element_not_found title failed ***
