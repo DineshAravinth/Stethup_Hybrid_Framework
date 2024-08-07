@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read("/Users/apple/Stethup_Project/STETHUP_PROJECT/Configurations/config.ini")
+config.read("/Users/apple/Automation/STETHUP_PROJECT/Configurations/config.ini")
 
 class Readconfig:
     @staticmethod   # We can directly call the method using class name

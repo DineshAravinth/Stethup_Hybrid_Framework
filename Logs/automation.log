@@ -1,3 +1,29 @@
-#helps to record and track the execution flow,
-#making it easier to debug and understand the test results
 
+08/07/2024 10:51:48 AM: INFO: *** Posting_A_Job ***
+08/07/2024 10:51:52 AM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 10:51:52 AM: INFO: *** Jobs Page is displayed ***
+08/07/2024 10:51:55 AM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 10:52:05 AM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 10:52:05 AM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 10:56:17 AM: INFO: *** Posting_A_Job ***
+08/07/2024 10:56:20 AM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 10:56:20 AM: INFO: *** Jobs Page is displayed ***
+08/07/2024 10:56:23 AM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 10:56:33 AM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 10:56:33 AM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 11:04:58 AM: INFO: *** Posting_A_Job ***
+08/07/2024 11:05:02 AM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 11:05:02 AM: INFO: *** Jobs Page is displayed ***
+08/07/2024 11:05:05 AM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 11:05:15 AM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 11:05:15 AM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
+08/07/2024 11:06:29 AM: ERROR: Unknown title 'None' in Excel. Skipping entry.
