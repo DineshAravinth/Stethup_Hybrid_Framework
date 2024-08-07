@@ -77,7 +77,6 @@ class Test_001_Post_Job:
             title_in_excel = Excel_Utilities.readData(self.path, self.sheet_name, row, 1)  # Column A
             data_to_enter = Excel_Utilities.readData(self.path, self.sheet_name, row, 3)  # Column C
 
-            # Verify the title
             if title_in_excel == "Hire For Whom":
                 self.jb.hire_for_whom(data_to_enter)
                 sleep(3)
@@ -134,16 +133,21 @@ class Test_001_Post_Job:
             elif title_in_excel == "Joining Time":
                 self.jb.joining_time(data_to_enter)
                 sleep(3)
+                break
             else:
-                self.logger.error(f"Unknown title '{title_in_excel}' in Excel. Skipping entry.")
-                continue
+                self.logger.error(f"Unknown title '{title_in_excel}' in Excel.")
+                save_screenshot(self.driver, method_name="test_post_job")
+                raise ValueError(f"Unknown title '{title_in_excel}' in Excel. Please check your input file.")
 
         self.jb.file_upload(self.job_image)
         sleep(5)
         self.jb.next_button()
         self.logger.info(f"*** Page 1 Job_Post is successfull")
-
         sleep(5)
+
+
+
+
 
 
 
