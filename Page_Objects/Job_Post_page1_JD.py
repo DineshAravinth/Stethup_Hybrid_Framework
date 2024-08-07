@@ -8,7 +8,7 @@ from time import sleep
 import datetime
 
 class Job_Post:
-    hire_for_whom_locator =(By.XPATH,"//label[contains(.,'Hire For Who *')]")
+    hire_for_whom_locator =(By.XPATH,"//label[contains(.,'Hire For Whom *')]")
     my_dashboard_button = (By.XPATH, "//a[contains(.,'My Dashboard')]")
     skip_click = (By.XPATH, "(//button[@type='button'])[1]")
     employer_profile_click = (By.XPATH, "(//a[contains(.,'Access Now')])[6]")

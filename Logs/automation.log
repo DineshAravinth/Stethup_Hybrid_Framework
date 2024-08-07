@@ -1,94 +1,62 @@
-08/07/2024 02:35:43 PM: INFO: *** Posting_A_Job ***
-08/07/2024 02:35:46 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 02:35:46 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 02:35:49 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 02:36:00 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 02:36:00 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 02:37:55 PM: INFO: *** Posting_A_Job ***
-08/07/2024 02:37:59 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 02:37:59 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 02:38:02 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 02:38:12 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 02:38:12 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 02:38:12 PM: ERROR: Unknown title 'Hire For Whom' in Excel. Skipping entry.
-08/07/2024 02:51:19 PM: INFO: *** Posting_A_Job ***
-08/07/2024 02:51:23 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 02:51:23 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 02:51:26 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 02:51:36 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 02:51:36 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 02:56:17 PM: INFO: *** Posting_A_Job ***
-08/07/2024 02:56:21 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 02:56:21 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 02:56:24 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 02:56:35 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 02:56:35 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 03:44:20 PM: INFO: *** Posting_A_Job ***
-08/07/2024 03:55:53 PM: INFO: *** Posting_A_Job ***
-08/07/2024 03:55:57 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 03:55:57 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 03:56:00 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 03:56:11 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 03:56:11 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 03:57:25 PM: ERROR: Unknown title 'None' in Excel.
-08/07/2024 03:58:37 PM: INFO: *** Posting_A_Job ***
-08/07/2024 03:58:41 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 03:58:41 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 03:58:44 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 03:58:56 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 03:58:56 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 04:00:11 PM: INFO: *** Page 1 Job_Post is successfull
-08/07/2024 04:01:20 PM: INFO: *** Test_001_Login ***
-08/07/2024 04:01:20 PM: INFO: *** Verify Loginpage Title ***
-08/07/2024 04:01:21 PM: INFO: *** Loginpage title is passed ***
-08/07/2024 04:01:23 PM: INFO: *** Test_001_Login ***
-08/07/2024 04:01:23 PM: INFO: *** Verify Home page Title ***
-08/07/2024 04:01:27 PM: INFO: *** Homepage title is passed ***
-08/07/2024 04:01:31 PM: INFO: **** LOGOUT SUCCESFULLY ****
-08/07/2024 04:01:34 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109aa08f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c777b1dc6f08153891c977d09c0f517
-08/07/2024 04:01:34 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109aa0830>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c777b1dc6f08153891c977d09c0f517
-08/07/2024 04:01:34 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109aa08c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7c777b1dc6f08153891c977d09c0f517
-08/07/2024 04:01:55 PM: INFO: *** Test_001_Login ***
-08/07/2024 04:01:55 PM: INFO: *** Verify Loginpage Title ***
-08/07/2024 04:01:56 PM: INFO: *** Loginpage title is passed ***
-08/07/2024 04:01:58 PM: INFO: *** Test_001_Login ***
-08/07/2024 04:01:58 PM: INFO: *** Verify Home page Title ***
-08/07/2024 04:02:01 PM: INFO: *** Homepage title is passed ***
-08/07/2024 04:02:05 PM: INFO: **** LOGOUT SUCCESFULLY ****
-08/07/2024 04:02:08 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a278b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/297c912bdb909dd024fe633056abff14
-08/07/2024 04:02:08 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a278950>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/297c912bdb909dd024fe633056abff14
-08/07/2024 04:02:08 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a278c20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/297c912bdb909dd024fe633056abff14
-08/07/2024 04:02:43 PM: INFO: *** Test_002_Login_page_DTT ***
-08/07/2024 04:02:43 PM: INFO: *** Verify Login_page Title ***
-08/07/2024 04:02:45 PM: INFO: *** Login_page title is Passed ***
-08/07/2024 04:02:47 PM: INFO: *** Test_002_Homepage(Jobs_Page)_DDT ***
-08/07/2024 04:02:47 PM: INFO: *** Verify Home_page(Jobs_Page) Title ***
-08/07/2024 04:02:54 PM: INFO: **** Login test passed(Jobs_page is displayed) ****
-08/07/2024 04:03:15 PM: INFO: **** Invalid_Credentials login_test is passed(Login_page is displayed) ****
-08/07/2024 04:03:15 PM: INFO: **** Invalid credentials and login page(Welcome_text) is displayed ****
-08/07/2024 04:03:36 PM: INFO: **** Invalid_Credentials login_test is passed(Login_page is displayed) ****
-08/07/2024 04:03:36 PM: INFO: **** Invalid credentials and login page(Welcome_text) is displayed ****
-08/07/2024 04:03:56 PM: INFO: **** Invalid_Credentials login_test is passed(Login_page is displayed) ****
-08/07/2024 04:03:56 PM: INFO: **** Invalid credentials and login page(Welcome_text) is displayed ****
-08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a36b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
-08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a34d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
-08/07/2024 04:04:02 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a2a32f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1eb2469faabac6794435a595f5a61a83
-08/07/2024 04:21:48 PM: INFO: *** Posting_A_Job ***
-08/07/2024 04:21:53 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 04:21:53 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 04:21:57 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 04:22:07 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 04:22:07 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 04:30:23 PM: INFO: *** Posting_A_Job ***
-08/07/2024 04:30:26 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 04:30:26 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 04:30:29 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 04:30:39 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 04:30:39 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 04:37:11 PM: INFO: *** Posting_A_Job ***
-08/07/2024 04:37:14 PM: INFO: *** Jobs Page Title is Passed ***
-08/07/2024 04:37:14 PM: INFO: *** Jobs Page is displayed ***
-08/07/2024 04:37:17 PM: INFO: *** Verify Post Jobs page display ***
-08/07/2024 04:37:28 PM: INFO: *** Verify Post Jobs page is Passed ***
-08/07/2024 04:37:28 PM: INFO: *** Post Jobs page is displayed ***
-08/07/2024 04:37:38 PM: ERROR: *** element_not_found title failed ***
+08/07/2024 09:00:59 PM: INFO: *** Posting_A_Job ***
+08/07/2024 09:01:02 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 09:01:02 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 09:01:05 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 09:01:07 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:01:07 PM: INFO: *** Verify Loginpage Title ***
+08/07/2024 09:01:09 PM: INFO: *** Loginpage title is passed ***
+08/07/2024 09:04:45 PM: INFO: *** Posting_A_Job ***
+08/07/2024 09:04:49 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 09:04:49 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 09:04:52 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 09:05:02 PM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 09:05:02 PM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 09:06:21 PM: INFO: *** Page 1 Job_Post is successfull
+08/07/2024 09:06:28 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:06:28 PM: INFO: *** Verify Loginpage Title ***
+08/07/2024 09:06:30 PM: INFO: *** Loginpage title is passed ***
+08/07/2024 09:06:31 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:06:31 PM: INFO: *** Verify Home page Title ***
+08/07/2024 09:06:35 PM: INFO: *** Homepage title is passed ***
+08/07/2024 09:06:38 PM: INFO: **** LOGOUT SUCCESFULLY ****
+08/07/2024 09:06:41 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112588b30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5efb371ba594d896c18752d6923c35d8
+08/07/2024 09:06:41 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11244ac60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5efb371ba594d896c18752d6923c35d8
+08/07/2024 09:06:41 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11244a900>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5efb371ba594d896c18752d6923c35d8
+08/07/2024 09:07:52 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112162c90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f38f0e8a7bb8447ad505cacfe76eb1f1
+08/07/2024 09:07:52 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112161ca0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f38f0e8a7bb8447ad505cacfe76eb1f1
+08/07/2024 09:07:52 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x112648080>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f38f0e8a7bb8447ad505cacfe76eb1f1
+08/07/2024 09:09:04 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114834650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e937fa8a952e8f7ae94a01e468e8ab9a
+08/07/2024 09:09:04 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1125cc320>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e937fa8a952e8f7ae94a01e468e8ab9a
+08/07/2024 09:09:04 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x114836150>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e937fa8a952e8f7ae94a01e468e8ab9a
+08/07/2024 09:12:17 PM: INFO: *** Posting_A_Job ***
+08/07/2024 09:12:19 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d8e2930>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e4001456126106d0194686625ae00126
+08/07/2024 09:12:19 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d8fad20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e4001456126106d0194686625ae00126
+08/07/2024 09:12:19 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10db7f860>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e4001456126106d0194686625ae00126
+08/07/2024 09:12:21 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:12:21 PM: INFO: *** Verify Loginpage Title ***
+08/07/2024 09:12:23 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d8fa180>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/56ee68674517d5b6d932994cc0923e2e
+08/07/2024 09:12:23 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10dbf9190>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/56ee68674517d5b6d932994cc0923e2e
+08/07/2024 09:12:23 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10dbfb0b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/56ee68674517d5b6d932994cc0923e2e
+08/07/2024 09:15:13 PM: INFO: *** Posting_A_Job ***
+08/07/2024 09:15:17 PM: INFO: *** Jobs Page Title is Passed ***
+08/07/2024 09:15:17 PM: INFO: *** Jobs Page is displayed ***
+08/07/2024 09:15:20 PM: INFO: *** Verify Post Jobs page display ***
+08/07/2024 09:15:31 PM: INFO: *** Verify Post Jobs page is Passed ***
+08/07/2024 09:15:31 PM: INFO: *** Post Jobs page is displayed ***
+08/07/2024 09:16:50 PM: INFO: *** Page 1 Job_Post is successfull
+08/07/2024 09:16:57 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:16:57 PM: INFO: *** Verify Loginpage Title ***
+08/07/2024 09:16:59 PM: INFO: *** Loginpage title is passed ***
+08/07/2024 09:17:01 PM: INFO: *** Test_001_Login ***
+08/07/2024 09:17:01 PM: INFO: *** Verify Home page Title ***
+08/07/2024 09:17:04 PM: INFO: *** Homepage title is passed ***
+08/07/2024 09:17:07 PM: INFO: **** LOGOUT SUCCESFULLY ****
+08/07/2024 09:17:11 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b87920>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/93c38d3877ca69dec9bbccc81c7ffe83
+08/07/2024 09:17:11 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b876b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/93c38d3877ca69dec9bbccc81c7ffe83
+08/07/2024 09:17:11 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104bea090>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/93c38d3877ca69dec9bbccc81c7ffe83
+08/07/2024 09:18:22 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b7d3a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/488ddc59b7434918e50bc7136fdd26b9
+08/07/2024 09:18:22 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab1ac0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/488ddc59b7434918e50bc7136fdd26b9
+08/07/2024 09:18:22 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b05e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/488ddc59b7434918e50bc7136fdd26b9
+08/07/2024 09:19:33 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10467e7e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/29bb2b3d50b6681df8295bfd4d632cb0
+08/07/2024 09:19:33 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ca1130>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/29bb2b3d50b6681df8295bfd4d632cb0
+08/07/2024 09:19:33 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104c74620>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/29bb2b3d50b6681df8295bfd4d632cb0
