@@ -87,4 +87,3 @@ class Test_002_DDT_Login:
 
             sleep(5)
 
-        self.driver.quit()

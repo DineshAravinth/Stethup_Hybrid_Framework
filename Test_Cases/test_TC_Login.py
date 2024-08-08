@@ -57,4 +57,3 @@ class Test_001_Login:
         self.logger.info("**** LOGOUT SUCCESFULLY ****")
         # print("logout Successfully")
         sleep(3)
-        self.driver.quit()

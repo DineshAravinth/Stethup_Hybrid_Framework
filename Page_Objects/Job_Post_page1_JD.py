@@ -42,19 +42,29 @@ class Job_Post:
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)  # 10 seconds timeout
 
+    def scroll_to_element(self, element):
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+
+    def scroll_by_pixels(self, pixels):
+        self.driver.execute_script(f"window.scrollBy(0, {pixels});")
+
     def dashboard_button(self):
         dashboard = self.wait.until(EC.visibility_of_element_located(self.my_dashboard_button))
         assert dashboard is not None, "Dashboard button not found"
+        # self.scroll_to_element(dashboard)
+        # self.scroll_by_pixels(300)  # Scroll down by 500 pixels
         dashboard.click()
 
     def skip(self):
         skipp = self.wait.until(EC.visibility_of_element_located(self.skip_click))
         assert skipp is not None, "Skip button not found"
+        # self.scroll_to_element(skipp)
         skipp.click()
 
     def employer_profile(self):
         emp = self.wait.until(EC.visibility_of_element_located(self.employer_profile_click))
         assert emp is not None, "Employer profile button not found"
+        # self.scroll_to_element(emp)
         emp.click()
 
     def regular_job_button(self):
@@ -66,10 +76,13 @@ class Job_Post:
         if value == "Direct employer":
             direct_employer = self.wait.until(EC.visibility_of_element_located(self.direct_employer_radio_button))
             assert direct_employer is not None, "Direct employer radio button not found"
+            # self.scroll_to_element(direct_employer)
             direct_employer.click()
         elif value == "Recruitment company":
-            recruitment_company = self.wait.until(EC.visibility_of_element_located(self.recruitment_company_radio_button))
+            recruitment_company = self.wait.until(
+                EC.visibility_of_element_located(self.recruitment_company_radio_button))
             assert recruitment_company is not None, "Recruitment company radio button not found"
+            # self.scroll_to_element(recruitment_company)
             recruitment_company.click()
         else:
             assert False, "Invalid value for hire_for_whom"
@@ -77,24 +90,28 @@ class Job_Post:
     def org_name(self, org):
         organisation = self.wait.until(EC.visibility_of_element_located(self.organisation_name_field))
         assert organisation is not None, "Organisation name field not found"
+        # self.scroll_to_element(organisation)
         organisation.clear()
         organisation.send_keys(org)
 
     def job_title(self, title):
         jobtitle = self.wait.until(EC.visibility_of_element_located(self.job_title_field))
         assert jobtitle is not None, "Job title field not found"
+        # self.scroll_to_element(jobtitle)
         jobtitle.clear()
         jobtitle.send_keys(title)
 
     def category(self, field):
         cate = self.wait.until(EC.visibility_of_element_located(self.category_dropdown))
         assert cate is not None, "Category dropdown not found"
+        # self.scroll_to_element(cate)
         s_obj = Select(cate)
         if field in ["Medical", "Nursing", "Dentist", "Pharmacist", "Technicians", "Others"]:
             s_obj.select_by_visible_text(field)
             if field == "Others":
                 cus_cate = self.wait.until(EC.visibility_of_element_located(self.custom_category))
                 assert cus_cate is not None, "Custom category field not found"
+                self.scroll_to_element(cus_cate)
                 cus_cate.clear()
                 cus_cate.send_keys(field)
         else:
@@ -103,6 +120,7 @@ class Job_Post:
     def job_post(self, job):
         jobpost = self.wait.until(EC.visibility_of_element_located(self.job_post_category_dropdown))
         assert jobpost is not None, "Job post category dropdown not found"
+        # self.scroll_to_element(jobpost)
         s_obj = Select(jobpost)
         if job in ["Jobs", "Internship", "Fellowship", "Observership", "Residency"]:
             s_obj.select_by_visible_text(job)
@@ -112,6 +130,7 @@ class Job_Post:
     def employment(self, type):
         emptype = self.wait.until(EC.visibility_of_element_located(self.employment_dropdown))
         assert emptype is not None, "Employment dropdown not found"
+        self.scroll_to_element(emptype)
         s_obj = Select(emptype)
         if type in ["Full Time", "Part Time", "Internship"]:
             s_obj.select_by_visible_text(type)
@@ -122,6 +141,7 @@ class Job_Post:
         try:
             sector = self.wait.until(EC.visibility_of_element_located(self.sector_field))
             assert sector is not None, "Sector field not found"
+            self.scroll_to_element(sector)
             sector.click()
         except TimeoutException:
             print("TimeoutException: Sector field not found or not clickable")
@@ -139,6 +159,7 @@ class Job_Post:
                 try:
                     sector_option = self.wait.until(EC.visibility_of_element_located((By.XPATH, xpath)))
                     assert sector_option is not None, f"{sec} option not found"
+                    self.scroll_to_element(sector_option)
                     try:
                         sector_option.click()
                     except ElementClickInterceptedException:
@@ -166,45 +187,54 @@ class Job_Post:
     def job_description(self, value):
         job_des = self.wait.until(EC.visibility_of_element_located(self.job_description_field))
         assert job_des is not None, "Job description field not found"
+        # self.scroll_to_element(job_des)
         job_des.clear()
         job_des.send_keys(value)
+        self.scroll_by_pixels(300)
+
 
     def minimum_experience(self, mini):
         min_exp = self.wait.until(EC.visibility_of_element_located(self.min_exp_field))
         assert min_exp is not None, "Minimum experience field not found"
+
         min_exp.clear()
         min_exp.send_keys(mini)
+        # self.scroll_to_element(min_exp)
 
     def maximum_experience(self, maxi):
         max_exp = self.wait.until(EC.visibility_of_element_located(self.max_exp_field))
         assert max_exp is not None, "Maximum experience field not found"
+
         max_exp.clear()
         max_exp.send_keys(maxi)
+        # self.scroll_to_element(max_exp)
 
     def total_position(self, tot):
         total = self.wait.until(EC.visibility_of_element_located(self.total_positions_field))
         assert total is not None, "Total positions field not found"
+        # self.scroll_to_element(total)
         total.clear()
         total.send_keys(tot)
 
     def qualification(self, quali):
         qualifi = self.wait.until(EC.visibility_of_element_located(self.qualification_field))
         assert qualifi is not None, "Qualification field not found"
+        # self.scroll_to_element(qualifi)
         qualifi.clear()
         qualifi.send_keys(quali)
 
     def designation(self, des):
         desi = self.wait.until(EC.visibility_of_element_located(self.designation_field))
         assert desi is not None, "Designation field not found"
+        # self.scroll_to_element(desi)
         desi.clear()
         desi.send_keys(des)
-
-    import datetime
 
     def job_posting(self, date):
         sleep(2)
         dat = self.wait.until(EC.visibility_of_element_located(self.job_posting_date))
         assert dat is not None, "Job posting date field not found"
+        # self.scroll_to_element(dat)
         sleep(2)
         # Convert datetime to string before sending
         if isinstance(date, datetime.datetime):
@@ -219,7 +249,8 @@ class Job_Post:
     def job_closing(self, date):
         sleep(2)
         dat = self.wait.until(EC.visibility_of_element_located(self.job_closing_date))
-        assert dat is not None, "Job posting date field not found"
+        assert dat is not None, "Job closing date field not found"
+        # self.scroll_to_element(dat)
         sleep(2)
         # Convert datetime to string before sending
         if isinstance(date, datetime.datetime):
@@ -233,6 +264,7 @@ class Job_Post:
     def license(self, type):
         lic = self.wait.until(EC.visibility_of_element_located(self.license_required_dropdown))
         assert lic is not None, "License required dropdown not found"
+        self.scroll_to_element(lic)
         s_obj = Select(lic)
         if type in ["Yes", "No"]:
             s_obj.select_by_visible_text(type)
@@ -242,6 +274,7 @@ class Job_Post:
     def shift_ava(self, type):
         shift = self.wait.until(EC.visibility_of_element_located(self.shift_availability_dropdown))
         assert shift is not None, "Shift availability dropdown not found"
+        # self.scroll_to_element(shift)
         s_obj = Select(shift)
         if type in ["Day", "Night", "Evening", "Rotational"]:
             s_obj.select_by_visible_text(type)
@@ -251,6 +284,7 @@ class Job_Post:
     def joining_time(self, type):
         join = self.wait.until(EC.visibility_of_element_located(self.joining_time_dropdown))
         assert join is not None, "Joining time dropdown not found"
+        # self.scroll_to_element(join)
         s_obj = Select(join)
         if type in ["Immediate", "One Month", "Two Months"]:
             s_obj.select_by_visible_text(type)
@@ -260,6 +294,7 @@ class Job_Post:
     def file_upload(self, field):
         file = self.wait.until(EC.visibility_of_element_located(self.image_click))
         assert file is not None, "File upload element not found"
+        # self.scroll_to_element(file)
         file.send_keys(field)
 
     def next_button(self):

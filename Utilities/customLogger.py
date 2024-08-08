@@ -1,5 +1,6 @@
 import logging
 import os
+import warnings
 
 
 class LogGen:
@@ -20,6 +21,7 @@ class LogGen:
         for handler in logging.root.handlers[:]:
             logging.root.removeHandler(handler)
 
+        # Configure logging
         logging.basicConfig(
             filename=log_filename,
             format='%(asctime)s: %(levelname)s: %(message)s',
@@ -35,10 +37,11 @@ class LogGen:
             logger.addHandler(logging.StreamHandler())
 
         print("Logger configured.")
+
+        # Redirect warnings to the logger
+        logging.captureWarnings(True)
+        warnings.showwarning = lambda message, category, filename, lineno, file=None, line=None: logger.warning(
+            f"{category.__name__}: {message} (from {filename}:{lineno})"
+        )
+
         return logger
-
-
-# Test the logger setup
-# if __name__ == "__main__":
-#     logger = LogGen.loggen()
-#     logger.info("This is a test log message.")
