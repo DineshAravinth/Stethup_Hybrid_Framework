@@ -31,7 +31,7 @@ class Test_002_DDT_Login:
         self.driver.get(self.url)
         self.driver.maximize_window()
         self.verify_title("stethUP: Connecting You to the Future of Healthcare", self.driver.title,
-                          "test_login_initial")
+                        "test_login_initial")
         self.logger.info("*** Login_page title is Passed ***")
 
     def test_homepage_DTT(self, setup):

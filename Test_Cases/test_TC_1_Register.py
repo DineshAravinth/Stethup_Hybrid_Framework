@@ -84,8 +84,7 @@ class Test_001_Register:
         sleep(2)
         if self.verify_element(Registration_page.registration_button):
             self.reg.register()
-        sleep(30)
-        self.driver.quit()
+        sleep(3)
 
 
 
